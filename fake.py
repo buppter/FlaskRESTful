@@ -1,9 +1,3 @@
-"""
- Created by 七月 on 2018/5/1.
-"""
-__author__ = '七月'
-
-
 from app import create_app
 from app.models.base import db
 from app.models.users import User
@@ -28,7 +22,7 @@ with app.app_context():
         book.title = "flask进阶"
         book.author = "SHI"
         book.binding = "32开"
-        book.publisher = "北京邮电大学出版社"
+        book.publisher = "北京xx大学出版社"
         book.price = 180
         book.pages = 900
         book.pubdate = "2018-12-31"
